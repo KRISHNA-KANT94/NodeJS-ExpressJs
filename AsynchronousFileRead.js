@@ -1,7 +1,7 @@
 const a=require('fs')
 a.readFile('abc.txt',function(err,data){
     if(err){
-        console.log("got damn error")
+        console.log(" error")
     }
     else{
         console.log(data.toString())
@@ -10,14 +10,14 @@ a.readFile('abc.txt',function(err,data){
 
 a.readFile('jkl.txt',function(err,data){
     if(err){
-        console.log("again err man...!!!")
+        console.log("error")
     }else{
 
         console.log(data.toString())
     }
 })
 
-console.log("hello dosto")
+console.log("hello world")
 var c=a.readFileSync('xyz.txt')
 console.log(c.toString());
-console.log("yahoooo....!!!!")
+console.log("hello")
