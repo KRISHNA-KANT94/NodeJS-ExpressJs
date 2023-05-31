@@ -12,15 +12,15 @@ var c = a.createServer(function (req, resp) {
             break;
 
         case "/aboutus":
-            resp.write("guyssssss")
+            resp.write("hello-world")
             resp.end()
             break;
 
         default:
-            resp.write("kyun... hila dala naa..??")
+            resp.write("good morning.??")
             resp.end()
             break;
     }
   
 })
-c.listen(3002, console.log("maula... maula....maulaaaa"))
+c.listen(3002, console.log("welcome to server"))
